@@ -1,0 +1,21 @@
+{
+	"name": "aerospike/store",
+	"description": "A custom session handler backed by Aerospike for PHP 5.4",
+	"keywords": ["aerospike", "session"],
+	"homepage": "https://github.com/amirrf/aerospike-store-php",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Amir Rahimi Farahani",
+			"email": "amirrf@gmail.com",
+			"homepage": "https://github.com/amirrf"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"aerospike/aerospike-client-php": ">=3.3"        
+	},
+	"autoload": {
+		"classmap": ["/"]
+	}
+}
